@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block body %}
+<body>
+        <form action="http://localhost:4000/login" method="post">
+            <input type="text" name="username" id="" placeholder="Username: ">
+            <input type="password" name="password" id="" placeholder="Password: ">
+            <button type="submit"> Login </button>
+        </form>
+    </body>
+</html>
+{% endblock %}
