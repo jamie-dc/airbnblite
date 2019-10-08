@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block body %}
+<body>
+        <form action="http://localhost:4000/signup" method="post">
+            <input type="text" name="name" id="" placeholder="Name: ">
+            <input type="text" name="username" id="" placeholder="Username: ">
+            <input type="text" name="password" id="" placeholder="Password: ">
+            <select name="type">
+                <option value = "Vendor">Vendor</option>
+                <option value = "Renter">Renter</option>
+            </select>
+            <button type="submit"> Submit </button>
+        </form>
+    </body>
+</html>
+{% endblock %}
